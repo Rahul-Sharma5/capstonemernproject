@@ -1,0 +1,25 @@
+.navbar-dark .navbar-toggler {
+    color: #e7eaf0;
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+}
+
+.navbar-dark .navbar-toggler:focus {
+    color: rgba(0,0,0,0);
+    background-color: #16192c !important;
+}
+
+.h-8 {
+    height: 2.8rem !important;
+}
+
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+    --x-gutter-x: none !important;
+    --x-gutter-x: 1.5rem !important;
+    --x-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--x-gutter-x)*.5);
+    padding-left: calc(var(--x-gutter-x)*.5);
+    margin-right: auto;
+    margin-left: auto;
+}

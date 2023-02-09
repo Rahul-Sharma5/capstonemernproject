@@ -1,0 +1,24 @@
+.navbar {
+    --mdb-navbar-box-shadow: none !important;
+    --mdb-navbar-padding-top: 0.5625rem;
+    --mdb-navbar-brand-img-margin-right: 0.25rem;
+    box-shadow: var(--mdb-navbar-box-shadow);
+    padding-top: var(--mdb-navbar-padding-top);
+}
+
+.h-8 {
+    height: 2.8rem !important;
+}
+
+.navbar {
+    --x-navbar-bg: none !important;
+    --x-navbar-color: #16192C;
+    --x-navbar-icon-color: #6B7B93;
+    --x-navbar-hover-bg: #F5F9FC;
+    --x-navbar-hover-color: #495392;
+    --x-navbar-active-bg: #F5F9FC;
+    --x-navbar-active-color: #495392;
+    --x-navbar-nav-link-padding-y: 1rem;
+    position: relative;
+    z-index: 100;
+}

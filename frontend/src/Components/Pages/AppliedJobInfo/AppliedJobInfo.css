@@ -1,0 +1,18 @@
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+    /* --x-gutter-x: none !important; */
+    --x-gutter-x: 1.5rem !important;
+    --x-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--x-gutter-x)*.5);
+    padding-left: calc(var(--x-gutter-x)*.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* background-image: linear-gradient( 64.3deg,  rgba(254,122,152,0.81) 17.7%, rgba(255,206,134,1) 64.7%, rgba(172,253,163,0.64) 112.1% ); */
+/* background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% ); */
+
+/* background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% ); */
+/* background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
